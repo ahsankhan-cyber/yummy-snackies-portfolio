@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy Snackies & Food | Home Made Frozen Food</title>
+    
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+    <!-- ========== PRELOADER ========== -->
+    <div class="preloader">
+        <div class="loader">
+            <img src="./image/cropped_circle_image.png" alt="Yummy Snackies Logo" class="loader-logo">
+            <div class="loader-text">Loading...</div>
+        </div>
+    </div>
+
+    <!-- ========== WHATSAPP FLOATING BUTTON ========== -->
+    <a href="https://wa.me/qr/BNGPDFANTE2UO1" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-text">Order Now</span>
+    </a>
+
+    <!-- ========== NAVBAR START ========== -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <!-- Logo with Image -->
+            <a class="navbar-brand" href="index.html">
+                <div class="logo-wrapper">
+                    <img src="./image/cropped_circle_image.png" alt="Yummy Snackies Logo" class="logo-img">
+                    <div class="logo-text">
+                        <span class="logo-main">Yummy Snackies</span>
+                        <span class="logo-sub">& Food</span>
+                    </div>
+                </div>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">
+                            <i class="fas fa-home"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">
+                            <i class="fas fa-utensils"></i> Menu
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            <i class="fas fa-info-circle"></i> About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kitchen.html">
+                            <i class="fas fa-utensil-spoon"></i> Our Kitchen
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reviews.html">
+                            <i class="fas fa-star"></i> Reviews
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link order-now-btn" href="order.html">
+                            <i class="fas fa-shopping-cart"></i> Order Now
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ========== NAVBAR END ========== -->
+
+    <!-- ========== HERO SECTION START ========== -->
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        
+        <!-- Animated Background Elements -->
+        <div class="floating-elements">
+            <div class="floating-item item1"><i class="fas fa-drumstick-bite"></i></div>
+            <div class="floating-item item2"><i class="fas fa-cheese"></i></div>
+            <div class="floating-item item3"><i class="fas fa-pepper-hot"></i></div>
+            <div class="floating-item item4"><i class="fas fa-ice-cream"></i></div>
+        </div>
+        
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                    <!-- Main Banner -->
+                    <div class="main-banner">
+                        <img src="./image/131345357_106189308043713_1613064777045343744_n.png" alt="EAT GOOD FEEL GOOD" class="banner-img">
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        <span class="highlight">Home Made</span> 
+                        <span class="highlight2">Frozen Food</span>
+                    </h1>
+                    
+                    <p class="hero-subtitle">
+                        Since 2021, delivering authentic Pakistani cuisine straight to your freezer. 
+                        Perfect for busy families, students, and food lovers.
+                    </p>
+                    
+                    <!-- Call to Action Buttons -->
+                    <div class="cta-buttons">
+                        <a href="tel:03321315011" class="btn call-btn">
+                            <i class="fas fa-phone-alt"></i> Call Now: 0332-1315011
+                        </a>
+                        <a href="https://wa.me/qr/BNGPDFANTE2UO1" class="btn whatsapp-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> WhatsApp Order
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+                    <!-- Hero Image with Animation -->
+                    <div class="hero-image-wrapper">
+                        <div class="hero-image">
+                            <img src="image/final menu rate.png" alt="Menu" class="menu-img">
+                        </div>
+                        <div class="discount-badge">
+                            <span class="discount-text">30% OFF</span>
+                            <span class="discount-sub">On First Order</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Quick Stats -->
+            <div class="quick-stats" data-aos="fade-up" data-aos-duration="1200">
+                <div class="stat-item">
+                    <h3>2000+</h3>
+                    <p>Happy Customers</p>
+                </div>
+                <div class="stat-item">
+                    <h3>50+</h3>
+                    <p>Menu Items</p>
+                </div>
+                <div class="stat-item">
+                    <h3>100%</h3>
+                    <p>Home Made</p>
+                </div>
+                <div class="stat-item">
+                    <h3>48 Hrs</h3>
+                    <p>Delivery Time</p>
+                </div>
+            </div>
+            
+            <!-- Scroll Down Indicator -->
+            <div class="scroll-down-indicator">
+                <a href="#categories" class="scroll-link">
+                    <span class="scroll-text">Explore Menu</span>
+                    <i class="fas fa-chevron-down bounce"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- ========== HERO SECTION END ========== -->
+
+    <!-- ========== CATEGORIES SECTION ========== -->
+    <section id="categories" class="categories-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title" data-aos="fade-up">Our <span class="highlight">Food Categories</span></h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">
+                    Freshly prepared, hygienically packed, ready to cook
+                </p>
+            </div>
+            
+            <div class="row">
+                <!-- Category 1 -->
+                <div class="col-md-3 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="100">
+                    <a href="menu.html#chicken" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-drumstick-bite"></i>
+                        </div>
+                        <h3>Chicken Items</h3>
+                        <p>Samosa, Wonton, Rolls, Nuggets & more</p>
+                        <span class="category-count">15+ items</span>
+                    </a>
+                </div>
+                
+                <!-- Category 2 -->
+                <div class="col-md-3 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                    <a href="menu.html#beef" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-hamburger"></i>
+                        </div>
+                        <h3>Beef Items</h3>
+                        <p>Kababs, Samosa, Qeema, Meat Balls</p>
+                        <span class="category-count">8+ items</span>
+                    </a>
+                </div>
+                
+                <!-- Category 3 -->
+                <div class="col-md-3 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="300">
+                    <a href="menu.html#vegi" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-carrot"></i>
+                        </div>
+                        <h3>Potato/Vegi</h3>
+                        <p>Cheese Balls, Cutlets, Rolls, Sticks</p>
+                        <span class="category-count">10+ items</span>
+                    </a>
+                </div>
+                
+                <!-- Category 4 -->
+                <div class="col-md-3 col-sm-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                    <a href="menu.html#pakistani" class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3>Pakistani Cuisine</h3>
+                        <p>Karhai, Kababs, Qeema, Traditional dishes</p>
+                        <span class="category-count">12+ items</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== POPULAR ITEMS SECTION ========== -->
+    <section class="popular-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title" data-aos="fade-up">Most <span class="highlight">Popular Items</span></h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">
+                    Customer favorites, always fresh and delicious
+                </p>
+            </div>
+            
+            <div class="row">
+                <!-- Item 1 -->
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="item-card">
+                        <div class="item-badge">BESTSELLER</div>
+                        <div class="item-img">
+                            <img src="image/samosa.jpg" alt="Chicken Samosa">
+                        </div>
+                        <div class="item-content">
+                            <h3>Chicken Samosa</h3>
+                            <p class="item-desc">Crispy homemade samosa with chicken filling</p>
+                            <div class="item-price">
+                                <span class="price">Rs. 200/dozen</span>
+                                <a href="https://wa.me/923321315011?text=I%20want%20to%20order%20Chicken%20Samosa" 
+                                   class="order-btn" target="_blank">
+                                    <i class="fas fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item 2 -->
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="item-card">
+                        <div class="item-badge hot">HOT</div>
+                        <div class="item-img">
+                            <img src="images/malai-boti.jpg" alt="Malai Boti">
+                        </div>
+                        <div class="item-content">
+                            <h3>Malai Boti</h3>
+                            <p class="item-desc">Creamy marinated chicken pieces</p>
+                            <div class="item-price">
+                                <span class="price">Rs. 380 (Small)</span>
+                                <a href="https://wa.me/923321315011?text=I%20want%20to%20order%20Malai%20Boti" 
+                                   class="order-btn" target="_blank">
+                                    <i class="fas fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item 3 -->
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="item-card">
+                        <div class="item-badge new">NEW</div>
+                        <div class="item-img">
+                            <img src="images/wonton.jpg" alt="Chicken Wonton">
+                        </div>
+                        <div class="item-content">
+                            <h3>Chicken Wonton</h3>
+                            <p class="item-desc">Crispy wontons with chicken filling</p>
+                            <div class="item-price">
+                                <span class="price">Rs. 200/dozen</span>
+                                <a href="https://wa.me/923321315011?text=I%20want%20to%20order%20Chicken%20Wonton" 
+                                   class="order-btn" target="_blank">
+                                    <i class="fas fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item 4 -->
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="item-card">
+                        <div class="item-badge">SPECIAL</div>
+                        <div class="item-img">
+                            <img src="images/spring-roll.jpg" alt="Spring Roll">
+                        </div>
+                        <div class="item-content">
+                            <h3>Spring Roll</h3>
+                            <p class="item-desc">Chicken & vegetable spring rolls</p>
+                            <div class="item-price">
+                                <span class="price">Rs. 320/dozen</span>
+                                <a href="https://wa.me/923321315011?text=I%20want%20to%20order%20Spring%20Roll" 
+                                   class="order-btn" target="_blank">
+                                    <i class="fas fa-cart-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5">
+                <a href="menu.html" class="btn view-all-btn">
+                    View All Menu Items <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS SECTION ========== -->
+    <section class="testimonials-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title" data-aos="fade-up">Customer <span class="highlight">Reviews</span></h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">
+                    What our happy customers say about us
+                </p>
+            </div>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-item active">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "Best frozen food in town! Chicken samosas are exactly like homemade. 
+                            Delivery was quick and packaging was perfect."
+                        </p>
+                        <div class="testimonial-author">
+                            <h4>Ali Raza</h4>
+                            <span>Regular Customer</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "Malai Boti is my family's favorite. Perfect for busy days when we want 
+                            restaurant-style food at home. Highly recommended!"
+                        </p>
+                        <div class="testimonial-author">
+                            <h4>Sara Khan</h4>
+                            <span>Working Professional</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "Ordered for iftar party, everyone loved the food! Quality is amazing 
+                            and prices are reasonable. Will order again!"
+                        </p>
+                        <div class="testimonial-author">
+                            <h4>Ahmed Hassan</h4>
+                            <span>Party Organizer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-controls">
+                <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CALL TO ACTION SECTION ========== -->
+    <section class="cta-section py-5">
+        <div class="container">
+            <div class="cta-box" data-aos="zoom-in">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <h2 class="cta-title">Ready to Order Your Favorite Food?</h2>
+                        <p class="cta-text">Get fresh homemade frozen food delivered to your doorstep</p>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <div class="cta-buttons">
+                            <a href="tel:03321315011" class="btn cta-call-btn">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://wa.me/qr/BNGPDFANTE2UO1" class="btn cta-whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <!-- Logo & About -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="Yummy Snackies Logo" class="footer-logo-img">
+                        <div class="footer-logo-text">
+                            <h3>Yummy Snackies & Food</h3>
+                            <p class="footer-tagline">EAT GOOD • FEEL GOOD</p>
+                        </div>
+                    </div>
+                    <p class="footer-about">
+                        Since 2021, providing high-quality homemade frozen Pakistani cuisine. 
+                        Fresh ingredients, hygienic preparation, and convenient delivery.
+                    </p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="menu.html"><i class="fas fa-chevron-right"></i> Menu</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="kitchen.html"><i class="fas fa-chevron-right"></i> Our Kitchen</a></li>
+                        <li><a href="order.html"><i class="fas fa-chevron-right"></i> Order Now</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4 class="footer-heading">Contact Us</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> 
+                            <a href="tel:03321315011">0332-1315011</a>
+                        </p>
+                        <p><i class="fas fa-phone"></i> 
+                            <a href="tel:03040245790">0304-0245790</a>
+                        </p>
+                        <p><i class="fas fa-clock"></i> 10:00 AM - 10:00 PM</p>
+                        <p><i class="fas fa-shipping-fast"></i> Delivery in 48 hours</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Home-Based Service</p>
+                    </div>
+                </div>
+                
+                <!-- Social Media -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4 class="footer-heading">Follow Us</h4>
+                    <div class="footer-social">
+                        <a href="https://facebook.com/share/1DE1kEFFMg/" class="social-icon fb" target="_blank">
+                            <i class="fab fa-facebook-f"></i> Facebook
+                        </a>
+                        <a href="https://www.instagram.com/yummysnackies_food?igsh=dDhnbmZqbW9oemVw" 
+                           class="social-icon insta" target="_blank">
+                            <i class="fab fa-instagram"></i> Instagram
+                        </a>
+                        <a href="https://wa.me/qr/BNGPDFANTE2UO1" class="social-icon whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                    </div>
+                    
+                    <!-- Newsletter -->
+                    <div class="newsletter mt-4">
+                        <h5>Get Updates</h5>
+                        <p>Subscribe for new items & offers</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your Email" required>
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="footer-divider">
+            
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="copyright">
+                            &copy; 2024 Yummy Snackies & Food. All rights reserved.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p class="made-with">
+                            Made with <i class="fas fa-heart"></i> for food lovers
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== SCRIPTS ========== -->
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
